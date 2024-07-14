@@ -16,7 +16,6 @@ class Karyawan extends Authenticatable
     protected $primaryKey = "nik";
     protected $fillable = [
         'nik',
-        'email',
         'nama_lengkap',
         'jabatan',
         'no_hp',

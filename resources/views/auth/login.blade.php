@@ -34,8 +34,8 @@
                 <img src="{{ asset('assets/img/sample/photo/logopoliban.jpg')}}" alt="image" class="form-image">
             </div>
             <div class="section mt-1">
-                <h2>Sistem Presensi Pegawai</h2>
-                <h2>POLIBAN</h2>
+                <h2>Sistem Presensi Karyawan</h2>
+                <h2>Politeknik Negeri Banjarmasin</h2>
             </div>
             <div class="section mt-1 mb-5">
                 @php
@@ -50,7 +50,7 @@
                     @csrf
                     <div class="form-group boxed">
                         <div class="input-wrapper">
-                            <input type="text" name="email" class="form-control" id="email1" placeholder="Email">
+                            <input type="text" name="nik" class="form-control" id="nik" placeholder="NIK">
                             <i class="clear-input">
                                 <ion-icon name="close-circle"></ion-icon>
                             </i>
